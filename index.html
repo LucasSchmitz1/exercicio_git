@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portal de noticías</title>
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: rgb(66, 66, 66);
+    padding: 16px 0;
+    color: rgb(255, 255, 255);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header li a {
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: rgb(36, 88, 241);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    display: inline-block;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgb(214, 247, 255);
+}
+
+#sports .articles article a {
+    background-color: rgb(20, 93, 228);
+}
+
+#technology {
+    background-color: rgb(251, 255, 190);
+}
+
+#technology .articles article a {
+    background-color: rgb(209, 195, 3) ;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Meu portal de noticías</h1>
+            <br><br>
+        </div>
+    </header>
+    <section id="sports">
+        <div class="container">
+            <h2>Esportes</h2>
+            <div class="articles">
+                <article>
+                    <img src="Rodri.jpg" width="300px">
+                    <h3>Melhor jogador do ano</h3>
+                    <p>
+                        O volante Rodri, do Manchester City, foi eleito o Bola de Ouro de 2024, numa eleição em que Vini Jr era considerado o grande favorito.
+                    </p>
+                    <a href="#" title="Leia a noticía completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="4dbb7ec056f0f677fcb783dc48ab2a1f70f7fc02-1-676x450.jpg" width="300" />
+                    <h3>Volei feminino nas Olimpíadas</h3>
+                    <p>
+                        A seleção feminina de vôlei do Brasil obteve a medalha de bronze nos Jogos Olímpicos Paris 2024 com uma vitória sobre Türkiye por 3 sets a 1, parciais de 25/21, 27/25, 22/25 e 25/15, em 10 de agosto. O resultado garantiu à equipe sua sexta medalha Olímpica nas últimas oito edições.
+                    </p>
+                    <a href="#" title="Leia a noticía completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="LeBron-vs-Kings-scaled-1-1024x682.jpg" width="300px"  />
+                    <h3>Troca inusitada traz 2 grandes estrelas do Jazz para o Lakers</h3>
+                    <p>
+                        O Los Angeles Lakers enfrenta um início de temporada desafiador na NBA, com um recorde de 14 vitórias e 12 derrotas. Esta situação tem pressionado a equipe a considerar mudanças em sua lista de jogadores para fortalecer suas chances de disputar um campeonato. Um nome que surgiu como potencial reforço é o de Collin Sexton, do Utah Jazz. Relatórios indicam que os Lakers poderiam estar mirando em uma troca envolvendo D’Angelo Russell por Sexton.
+                    </p>
+                    <a href="#" title="Leia a noticía completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="technology">
+        <div class="container">
+            <h2>Tecnologia</h2>
+            <div class="articles">
+                <article>
+                    <img src="stock-photo-mobile.jpg" width="300px"/>
+                    <h3>Sobre a tecnologia</h3>
+                    <p>
+                        Tecnologia é um termo que se refere a qualquer ferramenta, dispositivo ou processo que seja criado para resolver problemas ou melhorar a vida das pessoas. Ela inclui desde objetos simples do cotidiano, como relógios e calculadoras, até sistemas complexos, como computadores e redes de telecomunicações.
+                    </p>
+                    <a href="#" title="Leia a noticía completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="images.jpg" width="300px"/>
+                    <h3>Perigos do uso excessivo da tecnologia</h3>
+                    <p>
+                        Um dos principais contras da tecnologia é o fato de que seu uso excessivo pode levar à desumanização e provocar o isolamento social. Pesquisadores apontam, por exemplo, que, apesar de os celulares manterem as pessoas conectadas, o vício neles também pode comprometer a qualidade das interações sociais.
+                    </p>
+                    <a href="#" title="Leia a noticía completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="Futuro-da-tecnologia.jpg" width="300px">
+                    <h3>Como será a tecnologia do futuro</h3>
+                    <p>
+                        À medida que a tecnologia continua a evoluir, nos encontramos em um ponto de inflexão emocionante, onde uma série de inovações significativas estão prontas para desencadear mudanças incríveis para os negócios, a sociedade e o mundo natural.
+                    </p>
+                    <a href="#" title="Leia a noticía completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
